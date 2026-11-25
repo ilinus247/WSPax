@@ -3,8 +3,9 @@ name = "wspax"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "equinox==0.13.8",
-    "jax==0.12.1",
+    "equinox>=0.13.8",
+    "jax>=0.12.1",
+    "numpy>=2.5.5"
 ]
 
 [project.urls]
