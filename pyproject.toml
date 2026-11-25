@@ -7,6 +7,8 @@ dependencies = [
     "jax>=0.12.1",
     "numpy>=2.5.5"
 ]
+license = "MIT"
+license-files = ["LICENSE"]
 
 [project.urls]
 Repository = "https://github.com/ilinus247/WSPax"
@@ -21,6 +23,3 @@ dev = [
     "pytest>=9.2.0",
     "ruff>=0.17.6",
 ]
-
-license = "MIT"
-license-files = ["LICENSE"]
