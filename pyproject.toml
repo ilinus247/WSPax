@@ -6,3 +6,17 @@ dependencies = [
     "equinox==0.13.8",
     "jax==0.12.1",
 ]
+
+[project.urls]
+Repository = "https://github.com/ilinus247/WSPax"
+Issues = "https://github.com/ilinus247/WSPax/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+]
