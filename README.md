@@ -5,7 +5,7 @@ WSPax (pronounced wespax) is a functional JAX-native library for manipulating pa
 
 Built around [JAX](https://github.com/jax-ml/jax)'s PyTree abstraction and inspired by [Equinox](https://github.com/patrick-kidger/equinox)'s "models are just PyTrees" philosophy, WSPax is architecture-agnostic and independent of any particular neural network framework.
 
-WSPax is currently in development, and as of 11/24/2026 supports the Mbappé special.
+WSPax is currently in development and supports recording, applying, transferring, composing, inverting, and validating dense weight-space patches.
 
 ### References
 - [Sparks of Weight-Space Programming](https://arxiv.org/abs/2611.09382)
